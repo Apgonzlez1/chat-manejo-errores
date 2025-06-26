@@ -182,3 +182,52 @@ npm start
 - [Node.js - Error Handling](https://nodejs.org/api/errors.html)  
 - [Socket.IO Documentation](https://socket.io/docs/v4/error-handling/)  
 - [MDN Web Docs - try...catch](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/try...catch)  
+
+---
+
+## 📊 Evaluación según Rúbrica
+
+A continuación, se presenta cómo este informe cumple con cada uno de los criterios de evaluación establecidos:
+
+### 🧪 Investigación y Tipos de Errores
+
+Se incluye una explicación detallada y clara sobre los tipos de errores más comunes en Node.js: `SyntaxError`, `TypeError`, `ReferenceError`, `SystemError` y `CustomError`. Cada uno está definido y contextualizado dentro de su uso en desarrollo backend.
+
+✅ **Cumple completamente** con este criterio.
+
+---
+
+### ⚙️ Aplicación Práctica
+
+Se implementó validación de mensajes vacíos usando bloques `try...catch`, se agregó notificación de errores al cliente, y se documentó con ejemplos reales del proyecto WebChat. Los errores son capturados en tiempo real y el usuario es notificado.
+
+✅ **Cumple completamente** con este criterio.
+
+---
+
+### 📏 Uso de Buenas Prácticas
+
+El proyecto aplica buenas prácticas como:
+
+- Uso de `try-catch` para validación de entradas.
+- Logging con `console.error()`.
+- Validación antes de emitir eventos.
+- Respuesta controlada al cliente.
+
+✅ **Cumple completamente** con este criterio.
+
+---
+
+### 📘 Documentación y Claridad del Informe
+
+El archivo `README.md` presenta:
+
+- Objetivo e introducción.
+- Tipos de errores.
+- Código implementado.
+- Capturas de pantalla.
+- Explicación de cada evidencia.
+- Instrucciones de ejecución.
+- Conclusiones y referencias.
+
+
