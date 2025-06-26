@@ -1,0 +1,74 @@
+/* CUERPO */
+.register-body {
+  background-color: #e5ddd5; /* Fondo claro tipo WhatsApp */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* CONTENEDOR PRINCIPAL */
+main form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* INPUT GROUP */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-weight: 600;
+  color: #075e54; /* Verde oscuro WhatsApp */
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
+
+.input-group input {
+  padding: 12px 15px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #25d366;
+  box-shadow: 0 0 8px rgba(37, 211, 102, 0.4);
+}
+
+/* BOTÓN */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn.primary {
+  background-color: #25d366;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+}
+
+.btn.primary:hover {
+  background-color: #128c4a;
+  box-shadow: 0 6px 14px rgba(18, 140, 74, 0.5);
+}
